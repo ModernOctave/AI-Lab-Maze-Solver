@@ -75,3 +75,6 @@ class BFS:
         filter[curNode.x][curNode.y] = 1
 
         return filter, pathLength
+
+    def getNumExplored(self):
+        return len(self.explored)
